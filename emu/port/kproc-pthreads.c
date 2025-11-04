@@ -9,6 +9,9 @@
 
 #include	<unistd.h>
 #include	<signal.h>
+#if defined(LINUX_AMD64) || defined(LINUX_ARM) || defined(LINUX_ARM64)
+#define __USE_GNU
+#endif
 #include 	<pthread.h>
 #include	<limits.h>
 #include	<errno.h>

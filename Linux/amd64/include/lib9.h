@@ -29,6 +29,7 @@
 #include <float.h>
 #include <time.h>
 #include <endian.h>
+#include <ctype.h>
 
 #define	getwd	infgetwd
 
